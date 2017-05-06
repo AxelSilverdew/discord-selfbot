@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const ddg = require('ddg');
 const client = new Discord.Client();
 const config = require('./config.json');
 const commands = require('./commandlist.json');
@@ -35,4 +36,5 @@ client.on("message", message => {
 		setTimeout(() => {message.edit(commandList.get(command_name))}, 50);
 		return;
 	}
+
 });
