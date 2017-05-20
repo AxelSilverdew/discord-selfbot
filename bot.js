@@ -33,7 +33,7 @@ client.on("message", message => {
         ["cuteface", commands.cuteface],
         ["anger1", commands.anger1],
         ["fight1", commands.fight1],
-        ["1v1", commands.1v1]
+        ["ovo", commands.ovo]
 	]);
 
 	// Command Launcher Block
