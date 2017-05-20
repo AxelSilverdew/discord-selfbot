@@ -27,7 +27,13 @@ client.on("message", message => {
 		["lenny", commands.lenny],
 		["gun", commands.gun],
 		["crie", commands.crie],
-		["disappoint", commands.disappoint]
+		["disappoint", commands.disappoint],
+        ["stare", commands.stare],
+        ["flipfb", commands.flipfb],
+        ["cuteface", commands.cuteface],
+        ["anger1", commands.anger1],
+        ["fight1", commands.fight1],
+        ["1v1", commands.1v1]
 	]);
 
 	// Command Launcher Block
