@@ -35,7 +35,10 @@ client.on("message", message => {
         ["cuteface", commands.cuteface],
         ["anger1", commands.anger1],
         ["fight1", commands.fight1],
-        ["ovo", commands.ovo]
+        ["ovo", commands.ovo],
+				["triggered", commands.triggered],
+				["reee", commands.reee],
+				["derp", commands.derp]
 	]);
 
 	// Command Launcher Block
