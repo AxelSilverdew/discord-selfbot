@@ -4,7 +4,6 @@ const config = require('./config.json');
 const commands = require('./commandlist.json');
 var emojiReg = new RegExp(/(:[\w0-9]+:)/ig);
 
-//const emojify = require('./emojify.js');
 const fs = require("fs");
 
 client.login(config.token);
